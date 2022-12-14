@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Buenas, ¿Cuál es tu nombre?");
+const string saludo = "Buenas, ¿Cual es tu nombre?";
 string nombre;
 string eleccionUsuario;
 int numeroJugador;
 int intentos = 3;
+Console.WriteLine(saludo);
 nombre = Console.ReadLine();
 Console.WriteLine($"Buenos días {nombre}, vas a tener que adivianr un número del 1 al 15.");
 Console.WriteLine("Tienes 3 intentos, si fallas el programa te dira si tu número es mayor o menor que el que tienes que adivinar.");
